@@ -1,0 +1,24 @@
+{
+  "name": "ovo-api",
+  "version": "1.0.0",
+  "description": "A version minimalist of Twitter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^4.6.1",
+    "@types/express": "^4.17.14",
+    "prisma": "^4.6.1",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.3"
+  }
+}
